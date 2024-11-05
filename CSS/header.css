@@ -1,0 +1,13 @@
+header li{
+    display: flex;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 3rem;
+    font-size: 1.6rem;
+    color: #75676f;
+    font-weight: 1000;
+}

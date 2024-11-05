@@ -1,0 +1,71 @@
+#navegaca-geral-radape{
+    display: flex;
+    flex-direction: row;
+    background-color: #282828;
+    justify-content: right;
+    align-items: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.music{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+.linha-audio{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+    align-items: center;
+    color: #75676f;
+    font-weight: 1000;
+    font-size: 1.6rem;
+}
+
+.linha{
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
+.linha > hr{
+    border: .1rem solid #75676f;
+}
+#nave{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+
+    
+}
+#rodape{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+    padding-right: 5rem;
+    padding-left: 12rem;
+    
+}
+.botão-lateral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+    max-width: 30rem;
+}
+.linha-botao{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+.linha-botao hr{
+    border: .4rem solid #9e8c96;
+    border-radius: .5rem;
+}

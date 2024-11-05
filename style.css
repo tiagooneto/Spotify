@@ -1,0 +1,42 @@
+@import url(./CSS/header.css);
+@import url(./CSS/main.css);
+@import url(./CSS/footer.css);
+@font-face {
+    font-family:"gotham" ;
+    src: url(./Assets/Fonte/GothamMedium_1.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vw;
+    font-family: gotham;
+    text-decoration: none;
+
+}
+#total{
+    display: flex;
+}
+#lateral{
+    max-width: ;width: 20%;
+    background-color: #23121B;
+}
+#geral{
+    max-width: ;width: 80%;
+    background-image: linear-gradient( to bottom, #5F3149, #160B11 68%);
+
+}
+/* ============================herader===================== */
+
+/* =================main=========================== */
+
+/* ===================footer=================== */
+
+    
+
